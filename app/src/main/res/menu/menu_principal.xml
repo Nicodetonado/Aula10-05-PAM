@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <item android:title="Favorities"
-        android:icon="@drawable/baseline_favorite_border"
+    <item
         android:id="@+id/mFavorite"
-        app:showAsAction="always" />
+        android:icon="@drawable/baseline_favorite_border"
+        android:title="Favorities"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/mMusic"
+        android:icon="@drawable/baseline_library_music"
+        android:title="Music"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/mPlace"
+        android:icon="@drawable/baseline_place"
+        android:title="Place"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/mNewsPaper"
+        android:icon="@drawable/baseline_newspaper"
+        android:title="NewsPaper"
+        app:showAsAction="ifRoom" />
 </menu>
